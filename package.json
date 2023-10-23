@@ -1,0 +1,22 @@
+{
+  "name": "laptop-rental-site",
+  "version": "1.0.0",
+  "description": "you can rent laptops from here ",
+  "main": "server.js",
+  "scripts": {
+    "test": "console.log(\"Working\")",
+    "start": "nodemon server.js"
+  },
+  "author": "Sparky",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
